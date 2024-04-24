@@ -1,0 +1,52 @@
+.intro {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 1.2em;
+}
+
+.intro > * {
+  flex: 1;
+}
+
+.intro__img {
+  max-width: 100%;
+}
+
+.intro__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro__content p {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.intro__image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.icons-wrapper {
+  width: auto;
+  margin-bottom: 1.5em;
+}
+
+.icons-wrapper > a {
+  margin-right: 0.8em;
+  color: $clr-black;
+}
+
+.icons-wrapper > a:hover {
+  opacity: 0.7;
+}
+
+@media (min-width: 600px) {
+  .intro {
+    display: flex;
+    flex-direction: row;
+  }
+}

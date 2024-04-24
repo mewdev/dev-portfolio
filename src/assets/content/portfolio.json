@@ -1,0 +1,103 @@
+{
+  "portfolioItems": [
+    {
+      "id": 1,
+      "imgSrc": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/47032336_2196129470419246_5666510577367777280_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yW9CYcbEK8Ab4mynKS&_nc_ht=scontent.fprg1-1.fna&oh=00_AfCSyTQkd6hJK5YeTU99rUHnlKbj8WkGCEOkVzxTlPT2zg&oe=663F17DD",
+      "imgAlt": "a picture of Michał Wierzgoń smiling",
+      "title": "Naszownik",
+      "info": "Dictionary & quiz app",
+      "date": "February 2024",
+      "description": "Dictionary of the Cieszyn Silesian dialect featuring a search bar and quiz functionality with adjustable difficulty settings",
+      "buttons": [
+        {
+          "href": "https://github.com/mewdev/naszownik_version-1",
+          "text": "Code"
+        },
+        {
+          "href": "https://naszownik.netlify.app",
+          "text": "Live"
+        }
+      ],
+      "techstack": [
+        {
+          "stackIcon": "devicon-javascript-plain colored"
+        },
+        {
+          "stackIcon": "devicon-tailwindcss-original colored"
+        },
+        {
+          "stackIcon": "devicon-github-original colored"
+        },
+        {
+          "stackIcon": "devicon-astro-plain colored"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "imgSrc": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/47032336_2196129470419246_5666510577367777280_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yW9CYcbEK8Ab4mynKS&_nc_ht=scontent.fprg1-1.fna&oh=00_AfCSyTQkd6hJK5YeTU99rUHnlKbj8WkGCEOkVzxTlPT2zg&oe=663F17DD",
+      "imgAlt": "a picture of Michał Wierzgoń smiling",
+      "title": "michalwierzgon.dev",
+      "info": "Personal portfolio",
+      "date": "April 2024",
+      "description": "One-page portfolio to display projects and track progress in learning frontend development.",
+      "buttons": [
+        {
+          "href": "#home",
+          "text": "Code 2"
+        },
+        {
+          "href": "#home",
+          "text": "Live 2"
+        }
+      ],
+      "techstack": [
+        {
+          "stackIcon": "devicon-react-original colored"
+        },
+        {
+          "stackIcon": "devicon-sass-original colored"
+        },
+        {
+          "stackIcon": "devicon-astro-plain colored"
+        },
+        {
+          "stackIcon": "devicon-netlify-plain colored"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "imgSrc": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/47032336_2196129470419246_5666510577367777280_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yW9CYcbEK8Ab4mynKS&_nc_ht=scontent.fprg1-1.fna&oh=00_AfCSyTQkd6hJK5YeTU99rUHnlKbj8WkGCEOkVzxTlPT2zg&oe=663F17DD",
+      "imgAlt": "a picture of Michał Wierzgoń smiling",
+      "title": "Project 333",
+      "info": "Company website",
+      "date": "April 2023",
+      "description": "This exploration centers on crafting an engaging layout, selecting an appealing color palette, and utilizing captivating imagery to enhance the overall user experience",
+      "buttons": [
+        {
+          "href": "#home",
+          "text": "Code 3"
+        },
+        {
+          "href": "#home",
+          "text": "Live 3"
+        }
+      ],
+      "techstack": [
+        {
+          "stackIcon": "devicon-javascript-plain colored"
+        },
+        {
+          "stackIcon": "devicon-tailwindcss-original colored"
+        },
+        {
+          "stackIcon": "devicon-github-original colored"
+        },
+        {
+          "stackIcon": "devicon-astro-plain colored"
+        }
+      ]
+    }
+  ]
+}

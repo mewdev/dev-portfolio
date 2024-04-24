@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "platform": "Github",
+      "iconClass": "fa-brands fa-github",
+      "href": "https://github.com"
+    },
+    {
+      "platform": "Linkedin",
+      "iconClass": "fa-brands fa-linkedin",
+      "href": "https://linkedin.com"
+    },
+    {
+      "platform": "E-mail",
+      "iconClass": "fa-solid fa-envelope",
+      "href": "mailto:michal.wierzgon@gmail.com"
+    }
+  ]
+}

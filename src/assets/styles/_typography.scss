@@ -1,0 +1,78 @@
+/* Font weight */
+
+$fw-light: 200;
+$fw-reg: 400;
+$fw-bold: 700;
+$fw-medium: 500;
+
+/* Fluid sizes */
+
+$fs-sm: clamp(0.8rem, -0.09vi + 0.82rem, 0.75rem);
+$fs-base: clamp(1rem, 0vi + 1rem, 1rem);
+$fs-md: clamp(1.25rem, 0.15vi + 1.21rem, 1.33rem);
+$fs-lg: clamp(1.56rem, 0.39vi + 1.47rem, 1.78rem);
+$fs-xl: clamp(1.95rem, 0.76vi + 1.76rem, 2.37rem);
+
+/* Base assigments */
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+  margin: 0;
+}
+
+h1 {
+  font-size: $fs-xl;
+}
+h2 {
+  font-size: $fs-lg;
+}
+h3 {
+  font-size: $fs-md;
+}
+h4 {
+  font-size: $fs-base;
+}
+h5 {
+  font-size: $fs-sm;
+}
+p {
+  color: $clr-gray;
+  font-size: $fs-base;
+}
+
+/* Layout typography */
+
+.section__title {
+  margin-bottom: 0.25em;
+  font-weight: $fw-reg;
+}
+
+.section__title--intro {
+  font-weight: $fw-reg;
+}
+
+.section__title--intro strong {
+  display: block;
+}
+
+.section__subtitle {
+  margin: 0;
+  font-size: $fs-base;
+}
+
+.section__subtitle--intro,
+.section__subtitle--about {
+  margin-bottom: 0.25em;
+  font-size: $fs-sm;
+}
+
+.section__subtitle--work {
+  font-weight: $fw-reg;
+  margin-bottom: 2em;
+}
+
+.section__subtitle--contact {
+  margin-bottom: 1em;
+}

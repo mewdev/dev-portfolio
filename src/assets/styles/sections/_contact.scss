@@ -1,0 +1,42 @@
+.contact_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.input-group {
+  display: flex;
+  width: 100%;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.input-group input {
+  height: 2.5em;
+  flex: 1;
+  border-radius: 0.75em;
+  border: 1px solid $clr-gray-opacity-10;
+  box-shadow: $bs;
+  background: $clr-nero;
+}
+
+form textarea {
+  display: block;
+  height: 8em;
+  resize: none;
+  border-radius: 0.75em;
+  border: 1px solid $clr-gray-opacity-10;
+  box-shadow: $bs;
+  background: $clr-nero;
+}
+
+::placeholder {
+  padding: 0.75em 1em;
+  opacity: 0.5;
+}

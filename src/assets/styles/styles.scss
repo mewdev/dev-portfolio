@@ -1,0 +1,22 @@
+/* Theme */
+@import 'src/assets/styles/_theme.scss';
+/* Typography */
+@import 'src/assets/styles/_typography.scss';
+/* Buttons */
+@import 'src/assets/styles/_buttons.scss';
+
+/* Layout */
+@import 'src/assets/styles/layout/_base.scss';
+@import 'src/assets/styles/layout/_header.scss';
+@import 'src/assets/styles/layout/_footer.scss';
+@import 'src/assets/styles/layout/_grainbody.scss';
+
+/* Sections */
+@import 'src/assets/styles/sections/_intro.scss';
+@import 'src/assets/styles/sections/_techstack.scss';
+@import 'src/assets/styles/sections/_aboutme.scss';
+@import 'src/assets/styles/sections/_work.scss';
+@import 'src/assets/styles/sections/_contact.scss';
+
+/* Sections */
+@import 'src/assets/styles/_reset.scss';

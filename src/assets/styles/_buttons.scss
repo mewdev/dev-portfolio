@@ -1,0 +1,58 @@
+.btn {
+  padding: 0.8em 1.8em;
+  border-radius: 0.75em;
+  background: $clr-cod-gray;
+  color: $clr-nero;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: $fs-base;
+  font-weight: $fw-reg;
+  transition: 250ms ease-in-out;
+  transition-property: background, color;
+  box-shadow: $bs;
+
+  &--portfolio {
+    background: transparent;
+    text-decoration: none;
+    color: $clr-cod-gray;
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    margin-right: 0.8em;
+    font-size: $fs-sm;
+
+    &:hover {
+      text-decoration: underline;
+      opacity: 0.7;
+    }
+  }
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: $clr-gray;
+}
+
+.btn-outlined {
+  padding: 0.8em 1.8em;
+  border-radius: 0.75em;
+  background: transparent;
+  border: $clr-moon-mist;
+  border-width: 1px;
+  border-style: solid;
+  color: $clr-cod-gray;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: $fs-base;
+  text-align: center;
+  font-weight: $fw-reg;
+  transition: 250ms ease-in-out;
+  transition-property: background, color;
+  box-shadow: $bs;
+}
+
+.btn-outlined:hover,
+.btn-outlined:focus {
+  color: $clr-gray;
+}

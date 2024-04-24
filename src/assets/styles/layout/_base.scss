@@ -1,0 +1,67 @@
+@import 'src/assets/styles/layout/_utils.scss';
+
+/* Section */
+
+section {
+  // margin: 1em 0em 1em 0em;
+  padding: clamp(
+      #{$minTopBottomPadding},
+      #{$fluidTopBottomPadding},
+      #{$maxTopBottomPadding}
+    )
+    clamp(
+      #{$minLeftRightPadding},
+      #{$fluidLeftRightPadding},
+      #{$maxLeftRightPadding}
+    );
+}
+
+/* Section */
+
+strong {
+  font-weight: $fw-bold;
+  color: $clr-black;
+}
+
+/* Buttons wrapper */
+
+.buttons-wrapper {
+  display: flex;
+  gap: 0.5em;
+}
+
+/* Blurred circle body background element */
+
+.circle__background {
+  display: block;
+  position: absolute;
+  height: 16em;
+  width: 16em;
+  top: 30%;
+  left: 40%;
+  border-radius: 10em;
+  filter: blur(8em);
+  z-index: -999;
+  animation: colorchange 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+@keyframes colorchange {
+  0% {
+    background: #9a3e28;
+  }
+  25% {
+    background: #5f423f;
+  }
+  50% {
+    background: #82847e;
+  }
+  75% {
+    background: #84868c;
+  }
+  100% {
+    background: #9a3e28;
+  }
+}

@@ -1,0 +1,169 @@
+header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0em
+    clamp(
+      #{$minLeftRightPadding},
+      #{$fluidLeftRightPadding},
+      #{$maxLeftRightPadding}
+    );
+  z-index: 999;
+  background: transparent;
+}
+
+.on-scroll {
+  animation: onScrollDown 0.5s ease forwards;
+}
+
+@keyframes onScrollDown {
+  from {
+    background: transparent;
+  }
+  to {
+    background: rgba($clr-nero, 0.8);
+    backdrop-filter: saturate(180%) blur(10px);
+    box-shadow: $bs;
+  }
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .header {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.logo > a {
+  text-decoration: none;
+}
+
+.logo p {
+  color: $clr-black;
+}
+/* Navbar */
+
+.nav {
+  display: none;
+}
+
+@media screen and (min-width: 636px) {
+  .nav {
+    display: block;
+  }
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link {
+  color: inherit;
+  font-weight: var(--fw-reg);
+  font-size: $fs-base;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+  animation: resizeIcon 1s ease forwards;
+  transform: scale(0.5);
+}
+
+@media screen and (min-width: 636px) {
+  .hamburger,
+  .nav-toggle {
+    display: none;
+  }
+}
+
+.hamburger {
+  display: block;
+  background: $clr-black;
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 1em;
+  transition: transform 50ms ease-in-out;
+  animation: fadeIn 1.5s ease forwards, resizeLoop 2.5s infinite;
+}
+
+.close:hover {
+  color: $clr-gray;
+}
+
+.hamburger:hover {
+  background: $clr-gray;
+}
+
+@keyframes resizeLoop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.close:after {
+  display: block;
+  transform: scale(1.5);
+  animation: fadeIn 1s ease forwards;
+  content: '\00d7'; /* This will render the 'X' */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.nav-toggle {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.nav-toggle,
+button {
+  padding: 0;
+}
+
+.nav-open {
+  display: block;
+}
+
+.nav-open .nav__list {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  animation: navFadeIn 1s ease forwards;
+}
+
+@keyframes navFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
