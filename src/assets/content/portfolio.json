@@ -3,7 +3,7 @@
     {
       "id": "item1",
       "imgSrc": "src/assets/images/naszownik.jpeg",
-      "imgAlt": "A screenshot of the Naszownik dictionary app.",
+      "imgAlt": "A sceenshot of the Naszownik dictionary app",
       "title": "Naszownik",
       "info": "Dictionary & quiz app",
       "date": "February 2024",
@@ -36,19 +36,19 @@
     {
       "id": "item2",
       "imgSrc": "src/assets/images/portfolio.jpeg",
-      "imgAlt": "Mobile view of the portfolio website.",
+      "imgAlt": "a picture of Michał Wierzgoń smiling",
       "title": "michalwierzgon.dev",
       "info": "Personal portfolio",
       "date": "April 2024",
       "description": "One-page portfolio to display projects and track progress in learning frontend development.",
       "buttons": [
         {
-          "href": "https://github.com/mewdev/dev-portfolio",
-          "text": "Code"
+          "href": "#home",
+          "text": "Code 2"
         },
         {
-          "href": "https://michalwierzgon.dev",
-          "text": "Live"
+          "href": "#home",
+          "text": "Live 2"
         }
       ],
       "techstack": [
@@ -69,19 +69,19 @@
     {
       "id": "item3",
       "imgSrc": "src/assets/images/scrimba.jpeg",
-      "imgAlt": "A screenshot from Scrimba dashboard.",
-      "title": "Various",
+      "imgAlt": "a picture of Michał Wierzgoń smiling",
+      "title": "The Frontend Developer Career Path",
       "info": "Course projects ",
       "date": "December 2023 - present",
-      "description": "Selection of solo projects created within the Frontend Developer Career Path course on Scrimba.",
+      "description": "Selection of projects created within the Frontend Developer Career Path course on Scrimba.",
       "buttons": [
         {
-          "href": "https://github.com/mewdev/scrimba-course-projects",
-          "text": "Code"
+          "href": "#home",
+          "text": "Code 3"
         },
         {
-          "href": "https://github.com/mewdev/scrimba-course-projects",
-          "text": "Live"
+          "href": "#home",
+          "text": "Live 3"
         }
       ],
       "techstack": [
@@ -89,13 +89,13 @@
           "stackIcon": "devicon-javascript-plain colored"
         },
         {
-          "stackIcon": "devicon-firebase-plain colored"
+          "stackIcon": "devicon-tailwindcss-original colored"
         },
         {
-          "stackIcon": "devicon-react-original colored"
+          "stackIcon": "devicon-github-original colored"
         },
         {
-          "stackIcon": "devicon-css3-plain colored"
+          "stackIcon": "devicon-astro-plain colored"
         }
       ]
     }
