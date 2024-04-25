@@ -2,7 +2,7 @@
   "portfolioItems": [
     {
       "id": "item1",
-      "imgSrc": "src/assets/images/naszownik.jpeg",
+      "imgSrc": "/naszownik.jpeg",
       "imgAlt": "A sceenshot of the Naszownik dictionary app",
       "title": "Naszownik",
       "info": "Dictionary & quiz app",
@@ -35,7 +35,7 @@
     },
     {
       "id": "item2",
-      "imgSrc": "src/assets/images/portfolio.jpeg",
+      "imgSrc": "/portfolio.jpeg",
       "imgAlt": "a picture of Michał Wierzgoń smiling",
       "title": "michalwierzgon.dev",
       "info": "Personal portfolio",
@@ -68,7 +68,7 @@
     },
     {
       "id": "item3",
-      "imgSrc": "src/assets/images/scrimba.jpeg",
+      "imgSrc": "/scrimba.jpeg",
       "imgAlt": "a picture of Michał Wierzgoń smiling",
       "title": "The Frontend Developer Career Path",
       "info": "Course projects ",
