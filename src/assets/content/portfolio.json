@@ -43,12 +43,12 @@
       "description": "One-page portfolio to display projects and track progress in learning frontend development.",
       "buttons": [
         {
-          "href": "#home",
-          "text": "Code 2"
+          "href": "https://github.com/mewdev/dev-portfolio",
+          "text": "Code"
         },
         {
-          "href": "#home",
-          "text": "Live 2"
+          "href": "https://michalwierzgon.dev",
+          "text": "Live"
         }
       ],
       "techstack": [
@@ -76,12 +76,12 @@
       "description": "Selection of various solo projects created within the Frontend Developer Career Path course on Scrimba.",
       "buttons": [
         {
-          "href": "#home",
-          "text": "Code 3"
+          "href": "https://github.com/mewdev/scrimba-course-projects",
+          "text": "Code"
         },
         {
-          "href": "#home",
-          "text": "Live 3"
+          "href": "https://github.com/mewdev/scrimba-course-projects",
+          "text": "Live"
         }
       ],
       "techstack": [
@@ -89,13 +89,13 @@
           "stackIcon": "devicon-javascript-plain colored"
         },
         {
-          "stackIcon": "devicon-tailwindcss-original colored"
+          "stackIcon": "devicon-firebase-plain colored"
         },
         {
-          "stackIcon": "devicon-github-original colored"
+          "stackIcon": "devicon-css3-plain colored"
         },
         {
-          "stackIcon": "devicon-astro-plain colored"
+          "stackIcon": "devicon-html5-plain colored"
         }
       ]
     }
