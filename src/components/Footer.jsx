@@ -9,8 +9,8 @@ export default function Footer() {
       <ul className="social-list">
         {links.map((link) => {
           return (
-            <li className="social-list__item">
-              <a key={link.id} className="social-list__link" href={link.href} target="_blank">
+            <li className="social-list__item" key={link.id}>
+              <a className="social-list__link" href={link.href} target="_blank">
                 <i className={`${link.iconClass} + fa-sm`}></i>
               </a>
             </li>

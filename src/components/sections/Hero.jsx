@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="icons-wrapper">
           {links.map((link) => {
             return (
-              <a href={link.href} target="_blank">
+              <a href={link.href} target="_blank" key={link.id}>
                 <i className={`${link.iconClass} + fa-lg`}></i>
               </a>
             );
