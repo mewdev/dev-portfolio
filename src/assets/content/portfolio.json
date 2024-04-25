@@ -7,7 +7,7 @@
       "title": "Naszownik",
       "info": "Dictionary & quiz app",
       "date": "February 2024",
-      "description": "Dictionary of the Cieszyn Silesian dialect featuring a search bar and quiz functionality with adjustable difficulty settings",
+      "description": "Dictionary of the Cieszyn Silesian dialect featuring a search bar and quiz functionality with adjustable difficulty settings made with vanilla JavaScript on top of Astro.",
       "buttons": [
         {
           "href": "https://github.com/mewdev/naszownik_version-1",
@@ -35,7 +35,7 @@
     },
     {
       "id": "item2",
-      "imgSrc": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/47032336_2196129470419246_5666510577367777280_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yW9CYcbEK8Ab4mynKS&_nc_ht=scontent.fprg1-1.fna&oh=00_AfCSyTQkd6hJK5YeTU99rUHnlKbj8WkGCEOkVzxTlPT2zg&oe=663F17DD",
+      "imgSrc": "src/assets/images/portfolio.jpeg",
       "imgAlt": "a picture of Michał Wierzgoń smiling",
       "title": "michalwierzgon.dev",
       "info": "Personal portfolio",
@@ -68,12 +68,12 @@
     },
     {
       "id": "item3",
-      "imgSrc": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/47032336_2196129470419246_5666510577367777280_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yW9CYcbEK8Ab4mynKS&_nc_ht=scontent.fprg1-1.fna&oh=00_AfCSyTQkd6hJK5YeTU99rUHnlKbj8WkGCEOkVzxTlPT2zg&oe=663F17DD",
+      "imgSrc": "src/assets/images/scrimba.jpeg",
       "imgAlt": "a picture of Michał Wierzgoń smiling",
-      "title": "Project 333",
-      "info": "Company website",
-      "date": "April 2023",
-      "description": "This exploration centers on crafting an engaging layout, selecting an appealing color palette, and utilizing captivating imagery to enhance the overall user experience",
+      "title": "The Frontend Developer Career Path",
+      "info": "Course projects ",
+      "date": "December 2023 - present",
+      "description": "Selection of projects created within the Frontend Developer Career Path course on Scrimba.",
       "buttons": [
         {
           "href": "#home",
