@@ -31,8 +31,7 @@ export default function Hero() {
 
       <div className="intro__image">
         <img
-          src="https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/47032336_2196129470419246_5666510577367777280_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yW9CYcbEK8Ab4mynKS&_nc_ht=scontent.fprg1-1.fna&oh=00_AfCSyTQkd6hJK5YeTU99rUHnlKbj8WkGCEOkVzxTlPT2zg&oe=663F17DD"
-          alt="a picture of Michał Wierzgoń smiling"
+          src="/hero_photo.jpeg"
           className="intro__img"
         />
       </div>
