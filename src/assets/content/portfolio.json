@@ -2,7 +2,7 @@
   "portfolioItems": [
     {
       "id": "item1",
-      "imgSrc": "/src/assets/content/naszownik.jpeg",
+      "imgSrc": "src/assets/content/naszownik.jpeg",
       "imgAlt": "a picture of Michał Wierzgoń smiling",
       "title": "Naszownik",
       "info": "Dictionary & quiz app",
