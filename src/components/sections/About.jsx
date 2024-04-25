@@ -4,15 +4,12 @@ export default function About() {
       <div className="about-me__content_left">
         <h2 className="section__title section__title--about">Who I am</h2>
         <p className="section__subtitle section__subtitle--about">
-          Designer & developer based out of NYC
+          Junior Frontend Developer
         </p>
 
         <div className="bio">
           <p className="bio__main-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Learning frontend development since December 2023. I enjoy turning creative ideas into functional and engaging applications using the latest best practices in modern frontend development.
           </p>
           <a href="#home" className="btn">Download CV</a>
         </div>
