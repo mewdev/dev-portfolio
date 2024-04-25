@@ -3,7 +3,7 @@
     {
       "id": "item1",
       "imgSrc": "src/assets/images/naszownik.jpeg",
-      "imgAlt": "A sceenshot of the Naszownik dictionary app",
+      "imgAlt": "A screenshot of the Naszownik dictionary app.",
       "title": "Naszownik",
       "info": "Dictionary & quiz app",
       "date": "February 2024",
@@ -36,19 +36,19 @@
     {
       "id": "item2",
       "imgSrc": "src/assets/images/portfolio.jpeg",
-      "imgAlt": "a picture of Michał Wierzgoń smiling",
+      "imgAlt": "Mobile view of the portfolio website.",
       "title": "michalwierzgon.dev",
       "info": "Personal portfolio",
       "date": "April 2024",
       "description": "One-page portfolio to display projects and track progress in learning frontend development.",
       "buttons": [
         {
-          "href": "#home",
-          "text": "Code 2"
+          "href": "https://github.com/mewdev/dev-portfolio",
+          "text": "Code"
         },
         {
-          "href": "#home",
-          "text": "Live 2"
+          "href": "https://michalwierzgon.dev",
+          "text": "Live"
         }
       ],
       "techstack": [
@@ -69,19 +69,19 @@
     {
       "id": "item3",
       "imgSrc": "src/assets/images/scrimba.jpeg",
-      "imgAlt": "a picture of Michał Wierzgoń smiling",
+      "imgAlt": "A screenshot from Scrimba dashboard.",
       "title": "The Frontend Developer Career Path",
       "info": "Course projects ",
       "date": "December 2023 - present",
       "description": "Selection of solo projects created within the Frontend Developer Career Path course on Scrimba.",
       "buttons": [
         {
-          "href": "#home",
-          "text": "Code 3"
+          "href": "https://github.com/mewdev/scrimba-course-projects",
+          "text": "Code"
         },
         {
-          "href": "#home",
-          "text": "Live 3"
+          "href": "https://michalwierzgon.dev",
+          "text": "Live"
         }
       ],
       "techstack": [
