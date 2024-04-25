@@ -17,7 +17,7 @@ export default function Hero() {
         <h1 className="section__title section__title--intro">
           Hi, I am Michał
         </h1>
-        <p>Frontend developer based in Czech Republic</p>
+        <p>I'm Michal, a passionate junior front-end developer with an artistic background based in Czech Republic. Enjoying turning creative ideas into functional and engaging applications using the latest best practices in modern frontend development. </p>
         <div className="buttons-wrapper">
           <a className="btn" href="#work">
             Work
