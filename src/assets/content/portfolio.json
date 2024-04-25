@@ -2,7 +2,7 @@
   "portfolioItems": [
     {
       "id": "item1",
-      "imgSrc": "/assets/content/naszownik.jpeg",
+      "imgSrc": "src/assets/images/naszownik.jpeg",
       "imgAlt": "A sceenshot of the Naszownik dictionary app",
       "title": "Naszownik",
       "info": "Dictionary & quiz app",
