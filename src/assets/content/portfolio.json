@@ -1,8 +1,8 @@
 {
   "portfolioItems": [
     {
-      "id": 1,
-      "imgSrc": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/47032336_2196129470419246_5666510577367777280_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yW9CYcbEK8Ab4mynKS&_nc_ht=scontent.fprg1-1.fna&oh=00_AfCSyTQkd6hJK5YeTU99rUHnlKbj8WkGCEOkVzxTlPT2zg&oe=663F17DD",
+      "id": "item1",
+      "imgSrc": "/src/assets/content/naszownik.jpeg",
       "imgAlt": "a picture of Michał Wierzgoń smiling",
       "title": "Naszownik",
       "info": "Dictionary & quiz app",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "item2",
       "imgSrc": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/47032336_2196129470419246_5666510577367777280_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yW9CYcbEK8Ab4mynKS&_nc_ht=scontent.fprg1-1.fna&oh=00_AfCSyTQkd6hJK5YeTU99rUHnlKbj8WkGCEOkVzxTlPT2zg&oe=663F17DD",
       "imgAlt": "a picture of Michał Wierzgoń smiling",
       "title": "michalwierzgon.dev",
@@ -67,7 +67,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "item3",
       "imgSrc": "https://scontent.fprg1-1.fna.fbcdn.net/v/t1.6435-9/47032336_2196129470419246_5666510577367777280_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1yW9CYcbEK8Ab4mynKS&_nc_ht=scontent.fprg1-1.fna&oh=00_AfCSyTQkd6hJK5YeTU99rUHnlKbj8WkGCEOkVzxTlPT2zg&oe=663F17DD",
       "imgAlt": "a picture of Michał Wierzgoń smiling",
       "title": "Project 333",
