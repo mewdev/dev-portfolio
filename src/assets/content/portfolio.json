@@ -70,10 +70,10 @@
       "id": "item3",
       "imgSrc": "/scrimba.jpeg",
       "imgAlt": "a picture of Michał Wierzgoń smiling",
-      "title": "The Frontend Developer Career Path",
+      "title": "Various",
       "info": "Course projects ",
       "date": "December 2023 - present",
-      "description": "Selection of projects created within the Frontend Developer Career Path course on Scrimba.",
+      "description": "Selection of various solo projects created within the Frontend Developer Career Path course on Scrimba.",
       "buttons": [
         {
           "href": "#home",
