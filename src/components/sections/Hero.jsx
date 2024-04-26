@@ -31,7 +31,7 @@ export default function Hero() {
 
       <div className="intro__image">
         <img
-          src="/images/hero_photo.jpeg"
+          src="/hero_photo.jpeg"
           className="intro__img"
         />
       </div>
