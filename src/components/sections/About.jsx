@@ -11,7 +11,6 @@ export default function About() {
           <p className="bio__main-text">
             I have been teaching myself frontend development since December 2021 and enjoy turning creative ideas into functional and engaging applications. My skills include proficiency in React, Tailwind CSS, Astro, SASS, and more, while prioritizing best practices in UX/UI and striving for clean, modern, and easily understandable code.
           </p>
-          <h4>Additional information:</h4>
           <a href="#home" className="btn">Download CV</a>
         </div>
       </div>
@@ -21,23 +20,23 @@ export default function About() {
           <ol className="timeline">
             <li className="timeline__item">
               <span className="timeline__circle"></span>
-              <h4>Learning frontend development</h4>
+              <h4>Frontend Development Education</h4>
               <h5>December 2023 - present</h5>
-              <p>Some silly timeline text</p>
+              <p>Acquiring knowledge in frontend development using Scrimba's educational resources and practicing newfound skills through personal projects.</p>
               <hr />
             </li>
             <li className="timeline__item">
               <span className="timeline__circle"></span>
-              <h4>Item title</h4>
+              <h4>Freelance no-code developer</h4>
               <h5>2020 - 2022</h5>
-              <p>Some silly timeline text</p>
+              <p>Designing and launching websites using no-code tools (mainly Webflow and Wordpress), fostering curiosity in frontend development techniques.</p>
               <hr />
             </li>
             <li className="timeline__item">
               <span className="timeline__circle"></span>
               <h4>Digital marketing & freelance musician</h4>
               <h5>March 2020 - present</h5>
-              <p>Some silly timeline text</p>
+              <p>Working part-time as digital marketer and regularly performing as an successful <a href="https://michalwierzgon.com/" target="_blank">jazz musician</a>.</p>
             </li>
           </ol>
         </div>
