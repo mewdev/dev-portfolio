@@ -3,7 +3,7 @@
     {
       "id": "item1",
       "imgSrc": "/naszownik.jpeg",
-      "imgAlt": "A sceenshot of the Naszownik dictionary app",
+      "imgAlt": "A screenshot of the Naszownik dictionary app.",
       "title": "Naszownik",
       "info": "Dictionary & quiz app",
       "date": "February 2024",
@@ -36,11 +36,11 @@
     {
       "id": "item2",
       "imgSrc": "/portfolio.jpeg",
-      "imgAlt": "a picture of Michał Wierzgoń smiling",
+      "imgAlt": "A screenshot from Portfolio website.",
       "title": "michalwierzgon.dev",
       "info": "Personal portfolio",
       "date": "April 2024",
-      "description": "One-page portfolio created to showcase projects and track progress in learning front-end development. The main objective of this project was to build a sleek one-page portfolio, utilizing best practices in SCSS, enhancing skills in its use, while also practicing React, creating a responsive design, and improving UX/UI expertise.",
+      "description": "One-page portfolio created to showcase projects and track progress in learning front-end development. The main objective of this project was to build a simple one-page portfolio, utilizing best practices in SCSS, enhancing skills in its use, while also practicing React, creating a responsive design, and improving UX/UI expertise.",
       "buttons": [
         {
           "href": "https://github.com/mewdev/dev-portfolio",
@@ -69,7 +69,7 @@
     {
       "id": "item3",
       "imgSrc": "/scrimba.jpeg",
-      "imgAlt": "a picture of Michał Wierzgoń smiling",
+      "imgAlt": "A screenshot from Scrimba dashboard.",
       "title": "Various",
       "info": "Course projects ",
       "date": "December 2023 - present",
