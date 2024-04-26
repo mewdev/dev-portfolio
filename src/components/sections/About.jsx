@@ -9,8 +9,9 @@ export default function About() {
 
         <div className="bio">
           <p className="bio__main-text">
-            Learning frontend development since December 2023. I enjoy turning creative ideas into functional and engaging applications using the latest best practices in modern frontend development.
+            I have been teaching myself frontend development since December 2021 and enjoy turning creative ideas into functional and engaging applications. My skills include proficiency in React, Tailwind CSS, Astro, SASS, and more, while prioritizing best practices in UX/UI and striving for clean, modern, and easily understandable code.
           </p>
+          <h4>Additional information:</h4>
           <a href="#home" className="btn">Download CV</a>
         </div>
       </div>
