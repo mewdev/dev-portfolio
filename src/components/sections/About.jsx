@@ -36,7 +36,7 @@ export default function About() {
               <span className="timeline__circle"></span>
               <h4>Digital marketing & freelance musician</h4>
               <h5>March 2020 - present</h5>
-              <p>Working part-time as digital marketer and regularly performing as an successful <a href="https://michalwierzgon.com/" target="_blank">jazz musician</a>.</p>
+              <p>Working part-time as digital marketer (e-commerce) and regularly performing as an successful <a href="https://michalwierzgon.com/" target="_blank">jazz musician</a>.</p>
             </li>
           </ol>
         </div>
