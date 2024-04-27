@@ -6,10 +6,18 @@ export default function Contact() {
         <p className="section__subtitle section__subtitle--contact">
           Get in touch with me
         </p>
-        <form className="form" id="form" name="form">
+        <form 
+          className="form" 
+          method="post"
+          data-netlify="true"
+          id="form" 
+          name="devPortfolioContactForm"
+          onSubmit="submit"
+          >
           <div className="input-group">
-            <input type="text" id="name" placeholder="Name" required />
-            <input type="email" id="email" placeholder="E-mail" required />
+            <input type="hidden" name="contact-form" value="devPortfolioContactForm"/>
+            <input type="text" name="full-name" id="name" placeholder="Full name" required />
+            <input type="email" name="email" id="email" placeholder="E-mail" required />
           </div>
           <textarea
             name="message"
