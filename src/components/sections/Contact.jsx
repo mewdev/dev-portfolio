@@ -20,6 +20,11 @@ export default function Contact() {
             <input type="text" name="full-name" id="name" placeholder="Full name" required />
             <input type="email" name="email" id="email" placeholder="E-mail" required />
           </div>
+
+          <div hidden>
+            <input name="bot-field" />
+          </div>
+
           <textarea
             name="message"
             id="message"
