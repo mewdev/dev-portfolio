@@ -9,6 +9,7 @@ export default function Contact() {
         <form 
           className="form" 
           method="post"
+          netlify-honeypot="bot-field"
           data-netlify="true"
           id="form" 
           name="devPortfolioContactForm"
