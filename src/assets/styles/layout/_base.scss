@@ -33,19 +33,25 @@ strong {
 /* Blurred circle body background element */
 
 .circle__background {
-  display: block;
-  position: absolute;
-  height: 16em;
-  width: 16em;
-  top: 30%;
-  left: 40%;
-  border-radius: 10em;
-  filter: blur(8em);
-  z-index: -999;
-  animation: colorchange 10s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .circle__background {
+    display: block;
+    position: absolute;
+    height: 16em;
+    width: 16em;
+    top: 30%;
+    left: 40%;
+    border-radius: 10em;
+    filter: blur(8em);
+    z-index: -999;
+    animation: colorchange 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+  }
 }
 
 @keyframes colorchange {
