@@ -76,6 +76,11 @@
   font-size: $fs-sm;
 }
 
+.timeline__item a {
+  text-decoration: none;
+  font-style: italic;
+}
+
 .timeline__circle {
   width: 0.5em;
   height: 0.5em;
