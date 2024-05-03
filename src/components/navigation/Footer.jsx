@@ -1,4 +1,4 @@
-import { links } from '../assets/content/links.json';
+import { links } from '../../assets/content/links.json';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();

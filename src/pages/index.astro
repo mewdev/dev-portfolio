@@ -1,12 +1,19 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Header from '../components/Header'
-import Main from '../components/Main'
-import Footer from '../components/Footer'
+import Layout from '../layouts/RootLayout.astro';
+import Hero from '../components/sections/Hero';
+import Work from '../components/sections/Work';
+import Techstack from '../components/sections/Techstack';
+import About from '../components/sections/About';
+import Contact from '../components/sections/Contact';
 ---
-
 <Layout title="Michał Wierzgoń - Junior Frontend Developer | Portfolio">
-            <Header client:only="react"/>
-            <Main/> 
-            <Footer />     
+    <main>
+        <div class="App">
+          <Hero />
+          <Work />
+          <Techstack />
+          <About />
+          <Contact />
+        </div>
+    </main>
 </Layout>
