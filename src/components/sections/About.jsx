@@ -23,14 +23,14 @@ export default function About() {
               <h5>ZUŠ Frenštát p. Radhoštěm</h5>
               <h4>Part-time music school teacher & IT consultant</h4>
               <h5>2021 - Present</h5>
-              <p>n addition to my music teaching responsibilities, I've developed a ticket reservation system (WordPress) and initiated various digital enhancements within the organization. I also engaged in occasional sound engineering tasks.</p>
+              <p>In addition to my music teaching responsibilities, I've developed a ticket reservation system (WordPress) and initiated various digital enhancements within the organization. I also engaged in occasional sound engineering tasks.</p>
               <hr />
             </li>
             <li className="timeline__item">
               <span className="timeline__circle"></span>
               <h4>Freelance no-code development</h4>
               <h5>2021 - 2023</h5>
-              <p>Developing a keen interest in web development in my free time, I've delved into designing and launching websites utilizing no-code tools, primarily Webflow and Wordpress. This experience has sparked my curiosity in frontend development, driving me to explore and learn more in this field.</p>
+              <p>Developing a keen interest in web development in my free time, I've delved into designing and launching websites utilizing no-code tools, primarily Webflow and Wordpress. This experience has sparked my curiosity in frontend development, driving me to explore and learn more in this field. Selected projects: <a href="https://www.chiradamcik.cz/" target="_blank">chiradamcik.cz</a><a href="https://vladimirjavorsky.cz/" target="_blank">vladimirjavorsky.cz</a><a href="https://www.marabell.cz/" target="_blank">marabell.cz</a></p>
               <hr />
             </li>
             <li className="timeline__item">
