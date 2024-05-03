@@ -36,7 +36,7 @@ export default function About() {
             <li className="timeline__item">
               <span className="timeline__circle"></span>
               <h4>Digital marketing & freelance musician</h4>
-              <h5>3/2020 - Present</h5>
+              <h5>2020 - Present</h5>
               <p>Working part-time as a digital marketer with a hands-on approach to technical aspects (e-mail automation, HTML/CSS modifications) in e-commerce, while simultaneously achieving international recognition as a successful and award- winning jazz musician (Anděl Awards winner and many others).</p>
             </li>
           </ol>
