@@ -11,7 +11,7 @@ export default function About() {
           <p className="bio__main-text">
             Self-learning front-end development since December 2023 and enjoy turning creative ideas into functional and engaging applications. My skills include proficiency in React, Tailwind CSS, Astro, SASS, and more, while prioritizing best practices in UX/UI and striving for clean, modern, and easily understandable code.
           </p>
-          <a href="#home" className="btn">Download CV</a>
+          <a href="/Michal-Wierzgon_CV.pdf" className="btn">Download CV</a>
         </div>
       </div>
 
