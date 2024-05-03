@@ -20,23 +20,24 @@ export default function About() {
           <ol className="timeline">
             <li className="timeline__item">
               <span className="timeline__circle"></span>
-              <h4>Frontend Development Education</h4>
-              <h5>December 2023 - present</h5>
-              <p>Acquiring knowledge in frontend development using Scrimba's educational resources and practicing newfound skills through personal projects.</p>
+              <h5>ZUŠ Frenštát p. Radhoštěm</h5>
+              <h4>Part-time music school teacher & IT consultant</h4>
+              <h5>2021 - Present</h5>
+              <p>n addition to my music teaching responsibilities, I've developed a ticket reservation system (WordPress) and initiated various digital enhancements within the organization. I also engaged in occasional sound engineering tasks.</p>
               <hr />
             </li>
             <li className="timeline__item">
               <span className="timeline__circle"></span>
-              <h4>Freelance no-code developer</h4>
-              <h5>2020 - 2022</h5>
-              <p>Designing and launching websites using no-code tools (mainly Webflow and Wordpress), fostering curiosity in frontend development techniques.</p>
+              <h4>Freelance no-code development</h4>
+              <h5>2021 - 2023</h5>
+              <p>Developing a keen interest in web development in my free time, I've delved into designing and launching websites utilizing no-code tools, primarily Webflow and Wordpress. This experience has sparked my curiosity in frontend development, driving me to explore and learn more in this field.</p>
               <hr />
             </li>
             <li className="timeline__item">
               <span className="timeline__circle"></span>
               <h4>Digital marketing & freelance musician</h4>
-              <h5>March 2020 - present</h5>
-              <p>Working part-time as digital marketer (e-commerce) and regularly performing as an successful <a href="https://michalwierzgon.com/" target="_blank">jazz musician</a>.</p>
+              <h5>3/2020 - Present</h5>
+              <p>Working part-time as a digital marketer with a hands-on approach to technical aspects (e-mail automation, HTML/CSS modifications) in e-commerce, while simultaneously achieving international recognition as a successful and award- winning jazz musician (Anděl Awards winner and many others).</p>
             </li>
           </ol>
         </div>
