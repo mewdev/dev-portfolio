@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import Navbar from '../components/Navbar';
+import Navbar from './Navbar';
 
 export default function Header() {
   const [toggle, setToggle] = useState(false);

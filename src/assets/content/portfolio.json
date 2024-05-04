@@ -2,7 +2,7 @@
   "portfolioItems": [
     {
       "id": "item1",
-      "imgSrc": "/naszownik.jpeg",
+      "imgSrc": "/assets/images/naszownik.jpeg",
       "imgAlt": "A screenshot of the Naszownik dictionary app.",
       "title": "Naszownik",
       "info": "Dictionary & quiz app",
@@ -35,7 +35,7 @@
     },
     {
       "id": "item2",
-      "imgSrc": "/portfolio.jpeg",
+      "imgSrc": "/assets/images/portfolio.jpeg",
       "imgAlt": "A screenshot from Portfolio website.",
       "title": "michalwierzgon.dev",
       "info": "Personal portfolio",
@@ -68,7 +68,7 @@
     },
     {
       "id": "item3",
-      "imgSrc": "/scrimba.jpeg",
+      "imgSrc": "/assets/images/scrimba.jpeg",
       "imgAlt": "A screenshot from Scrimba dashboard.",
       "title": "Various",
       "info": "Course projects ",
