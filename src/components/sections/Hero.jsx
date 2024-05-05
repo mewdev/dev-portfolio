@@ -3,7 +3,6 @@ import { links } from '../../assets/content/links.json';
 export default function Hero() {
   return (
     <section className="intro" id="home">
-      <div className="circle__background"></div>
       <div className="intro__content">
         <div className="icons-wrapper">
           {links.map((link) => {
