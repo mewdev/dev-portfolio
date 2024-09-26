@@ -23,7 +23,8 @@ export default function About() {
               <h5>Česko.Digital & Unreleased.art</h5>
               <h4>Frontend developer</h4>
               <h5>July 2024 - Present</h5>
-              I specialize in developing user-friendly, interactive web interfaces based on Figma designs. My work spans various projects, such as the Volební kalkulačka for Česko.Digital and the social platform for musicians, unreleased.art. These projects involve building dynamic, responsive interfaces using modern technologies like React, TypeScript, Tailwind CSS, Astro, and Next.js.              <hr />
+              <p>I specialize in developing user-friendly, interactive web interfaces based on Figma designs. My work spans various projects, such as the <a href="https://www.volebnikalkulacka.cz/" target="_blank">Volební kalkulačka</a> for <a href="https://www.cesko.digital/" target="_blank">Česko.Digital</a> and the social platform for musicians, <a href="https://unreleased.art/" target="_blank">unreleased.art</a>. These projects involve building dynamic, responsive interfaces using modern technologies like React, TypeScript, Tailwind CSS, Astro, and Next.js.</p>
+              <hr />
             </li>
             <li className="timeline__item">
               <span className="timeline__circle"></span>
