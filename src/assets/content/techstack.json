@@ -1,36 +1,52 @@
 [
     {
         "id": "tech1",
+        "iconClass": "devicon-nextjs-plain",
+        "techName": "Next.js"
+    },
+    {
+        "id": "tech2",
+        "iconClass": "devicon-typescript-plain",
+        "techName": "TypeScript"
+    },
+
+    {
+        "id": "tech3",
         "iconClass": "devicon-astro-plain",
         "techName": "Astro"
     },
     {
-        "id": "tech2",
+        "id": "tech4",
         "iconClass": "devicon-react-original",
         "techName": "React"
     },
     {
-        "id": "tech3",
+        "id": "tech5",
         "iconClass": "devicon-tailwindcss-original",
         "techName": "Tailwind CSS"
     },
     {
-        "id": "tech4",
+        "id": "tech6",
+        "iconClass": "devicon-storybook-plain",
+        "techName": "Storybook"
+    },
+    {
+        "id": "tech7",
         "iconClass": "devicon-sass-original",
         "techName": "Sass"
     },
     {
-        "id": "tech5",
+        "id": "tech8",
         "iconClass": "devicon-javascript-plain",
         "techName": "JavaScript"
     },
     {
-        "id": "tech6",
+        "id": "tech9",
         "iconClass": "devicon-html5-plain",
         "techName": "HTML5"
     },
     {
-        "id": "tech7",
+        "id": "tech10",
         "iconClass": "devicon-css3-plain",
         "techName": "CSS3"
     }
