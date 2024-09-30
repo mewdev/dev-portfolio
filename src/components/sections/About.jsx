@@ -3,13 +3,9 @@ export default function About() {
     <section className="about-me" id="about">
       <div className="about-me__content_left">
         <h2 className="section__title section__title--about">About me</h2>
-        <p className="section__subtitle section__subtitle--about">
-          Junior Frontend Developer
-        </p>
-
         <div className="bio">
           <p className="bio__main-text">
-            Self-learning front-end development since December 2023 and enjoy turning creative ideas into functional and engaging applications. My skills include proficiency in React, Tailwind CSS, Astro, SASS, and more, while prioritizing best practices in UX/UI and striving for clean, modern, and easily understandable code.
+       Thriving on translating imaginative concepts into practical and captivating applications. I specialize in React, Next.js, TypeScript, Tailwind CSS, Astro, and SASS, ensuring adherence to best practices in UX/UI design. I take pride in delivering clean, contemporary, and easily comprehensible code.
           </p>
           <a href="/Michal-Wierzgon_CV.pdf" target="_blank" className="btn">Download CV</a>
         </div>
