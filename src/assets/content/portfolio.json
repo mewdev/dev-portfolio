@@ -2,34 +2,37 @@
   "portfolioItems": [
     {
       "id": "item1",
-      "imgSrc": "/naszownik.jpeg",
-      "imgAlt": "A screenshot of the Naszownik dictionary app.",
-      "title": "Naszownik",
-      "info": "Dictionary & quiz app",
-      "date": "February 2024",
-      "description": "Dictionary of the Cieszyn Silesian dialect featuring a search bar and quiz functionality with adjustable difficulty settings. Built with vanilla JavaScript on top of the Astro meta framework, and styled using Tailwind CSS due to its intuitive approach to styling and growing popularity in the development community.",
+      "imgSrc": "/kalkulacka.jpeg",
+      "imgAlt": "A screenshot of voting advice application logo",
+      "title": "Volební kalkulačka",
+      "info": "Voting advice application",
+      "date": "August 2024 - ongoing",
+      "description": "Volební kalkulačka® (English: voting advice application) is a simple online tool that compares your political views with those of political parties or individuals (such as lawmakers or election candidates). Created by the KohoVolit.eu association and developed by Česko.digital, which has also been successfully implemented in Austria and Hungary.",
       "buttons": [
         {
-          "href": "https://github.com/mewdev/naszownik_version-1",
+          "href": "https://github.com/kalkulacka-one",
           "text": "Code"
         },
         {
-          "href": "https://naszownik.netlify.app",
+          "href": "https://volebnikalkulacka.cz",
           "text": "Live"
         }
       ],
       "techstack": [
         {
-          "stackIcon": "devicon-javascript-plain colored"
+          "stackIcon": "devicon-nextjs-plain colored"
         },
         {
-          "stackIcon": "devicon-tailwindcss-original colored"
+          "stackIcon": "devicon-typescript-plain colored"
         },
         {
-          "stackIcon": "devicon-github-original colored"
+          "stackIcon": "devicon-tailwindcss-plain colored"
         },
         {
-          "stackIcon": "devicon-astro-plain colored"
+          "stackIcon": "devicon-storybook-plain colored"
+        },
+        {
+          "stackIcon": "devicon-prisma-original colored"
         }
       ]
     },
