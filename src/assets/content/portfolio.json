@@ -38,6 +38,39 @@
     },
     {
       "id": "item2",
+      "imgSrc": "/naszownik.jpeg",
+      "imgAlt": "A screenshot of the Naszownik dictionary app.",
+      "title": "Naszownik",
+      "info": "Dictionary & quiz app",
+      "date": "February 2024",
+      "description": "Dictionary of the Cieszyn Silesian dialect featuring a search bar and quiz functionality with adjustable difficulty settings. Built with vanilla JavaScript on top of the Astro meta framework, and styled using Tailwind CSS due to its intuitive approach to styling and growing popularity in the development community.",
+      "buttons": [
+        {
+          "href": "https://github.com/mewdev/naszownik_version-1",
+          "text": "Code"
+        },
+        {
+          "href": "https://naszownik.netlify.app",
+          "text": "Live"
+        }
+      ],
+      "techstack": [
+        {
+          "stackIcon": "devicon-javascript-plain colored"
+        },
+        {
+          "stackIcon": "devicon-tailwindcss-original colored"
+        },
+        {
+          "stackIcon": "devicon-github-original colored"
+        },
+        {
+          "stackIcon": "devicon-astro-plain colored"
+        }
+      ]
+    },
+    {
+      "id": "item3",
       "imgSrc": "/portfolio.jpeg",
       "imgAlt": "A screenshot from Portfolio website.",
       "title": "michalwierzgon.dev",
@@ -66,39 +99,6 @@
         },
         {
           "stackIcon": "devicon-netlify-plain colored"
-        }
-      ]
-    },
-    {
-      "id": "item3",
-      "imgSrc": "/scrimba.jpeg",
-      "imgAlt": "A screenshot from Scrimba platform dashboard.",
-      "title": "Various",
-      "info": "Course projects ",
-      "date": "December 2023 - present",
-      "description": "Collection of projects developed during the Frontend Developer Career Path course on Scrimba. These projects demonstrate mastery of essential web development concepts and expand practical skills through varied assignments such as designing and developing web applications based on the given criteria within the course module.",
-      "buttons": [
-        {
-          "href": "https://github.com/mewdev/react-trivia-quizz-challenge",
-          "text": "Code"
-        },
-        {
-          "href": "https://trivia-quizz-react.netlify.app/",
-          "text": "Live"
-        }
-      ],
-      "techstack": [
-        {
-          "stackIcon": "devicon-javascript-plain colored"
-        },
-        {
-          "stackIcon": "devicon-firebase-plain colored"
-        },
-        {
-          "stackIcon": "devicon-css3-plain colored"
-        },
-        {
-          "stackIcon": "devicon-html5-plain colored"
         }
       ]
     }
