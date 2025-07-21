@@ -16,7 +16,7 @@ export default function Hero() {
         <h1 className="section__title section__title--intro">
           Hi, I am Michał
         </h1>
-        <p>A passionate front-end developer with an artistic background based in Czech Republic.</p>
+        <p>Front-end developer</p>
         <div className="buttons-wrapper">
           <a className="btn" href="#work">
             Work
