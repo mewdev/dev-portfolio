@@ -22,7 +22,7 @@ export default function About() {
               <h4>Frontend developer</h4>
               <h5>July 2024 - Present</h5>
               <p>
-Development of the "voting advice" application which is used by millions of voters in 7 countries using state-of-the-art technologies (system design, sub-architectural decisions).
+Development of the "voting advice" application which is used by millions of voters in 7 countries using modern development tools (key contributions to its design system, technology stack, and architecture).
               </p>
               <hr />
             </li>
