@@ -59,5 +59,10 @@
     "id": "tech12",
     "iconClass": "devicon-prisma-original",
     "techName": "Prisma"
+  },
+    {
+    "id": "tech13",
+    "iconClass": "devicon-git-plain",
+    "techName": "Git"
   }
 ]
