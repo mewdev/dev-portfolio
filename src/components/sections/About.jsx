@@ -5,7 +5,7 @@ export default function About() {
         <h2 className="section__title section__title--about">About me</h2>
         <div className="bio">
           <p className="bio__main-text">
- I am fascinated by turning ideas into functional applications. I specialize in the modern stack (Next.js, TypeScript, Tailwind), but my path to it has led through a variety of roles. I don't know everything, but I'm a quick learner and problem solver - whether it's code or finding the right tool for the job. If you're looking for a developer for your team with a broad outlook and an appetite for problem solving, don't hesitate to reach out to me.
+            Turning ideas into functional applications. I specialize in the modern stack (Next.js, TypeScript, Tailwind), but my path to it has led through a variety of roles. I don't know everything, but I'm a quick learner and problem solver - whether it's code or finding the right tool for the job. If you're looking for a developer for your team with a broad outlook and an appetite for problem solving, don't hesitate to reach out to me.
           </p>
           <a href="/Michal-Wierzgon_CV.pdf" target="_blank" className="btn">
             Download CV
